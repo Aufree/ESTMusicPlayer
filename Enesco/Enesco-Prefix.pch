@@ -1,0 +1,12 @@
+//
+//  Enesco-Prefix.pch
+//  Enesco
+//
+//  Created by Aufree on 11/30/15.
+//  Copyright © 2015 aufree. All rights reserved.
+//
+
+#import "UIConstant.h"
+#import "UIImageView+WebCache.h"
+#import "BaseHelper.h"
+#define APIBaseURL @"http://tinger.herokuapp.com/api"
