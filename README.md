@@ -41,7 +41,7 @@ I'm [Aufree](https://github.com/aufree), A passionate engineer, leading member o
 
 ## Contributing
 
-Thank you for your interest in contributing to PHPHub for iOS! Your ideas for improving this app are greatly appreciated. The best way to contribute is by submitting a pull request. I'll do my best to respond to you as soon as possible. You can also [submit a new GitHub issue](https://github.com/Aufree/Enesco/issues/new) if you find bugs or have questions.
+Thank you for your interest in contributing to Enesco! Your ideas for improving this app are greatly appreciated. The best way to contribute is by submitting a pull request. I'll do my best to respond to you as soon as possible. You can also [submit a new GitHub issue](https://github.com/Aufree/Enesco/issues/new) if you find bugs or have questions.
 
 ## License
 
