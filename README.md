@@ -1,11 +1,11 @@
 ![](http://ww3.sinaimg.cn/large/76dc7f1bjw1eyk4g1x9vej21kw0pajtn.jpg)
 
-Enesco is an elegant and simple iOS music player based on DOUAudioStreamer.
-
 <p align="center">
 <a href="https://weibo.com/jinfali"><img src="https://img.shields.io/badge/contact-@Aufree-orange.svg?style=flat"></a>
 <a href="https://github.com/Aufree/Enesco/blob/master/LICENSE"><img src="https://img.shields.io/badge/license-MIT-green.svg?style=flat"></a>
 </p>
+
+Enesco is an elegant and simple iOS music player based on DOUAudioStreamer.
 
 ## Requirements
 
