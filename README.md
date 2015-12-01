@@ -37,7 +37,7 @@ That's it, have fun! :beers:
 
 ## Who made this
 
-I'm [Aufree](https://github.com/aufree), A Rails and iOS Developer, leading member of the [est group](http://www.est-group.org), and while I am college dropout, I want to make some cool stuff in GitHub, That's why I'm here, you can ping me on [Twitter](https://twitter.com/_Paul_King_) or follow me on [Weibo](http://weibo.com/jinfali) if you interested in me.
+I'm [Aufree](https://github.com/aufree), A passionate engineer, leading member of the [est group](http://www.est-group.org), and while I am college dropout, I want to make some cool stuff in GitHub, That's why I'm here, you can ping me on [Twitter](https://twitter.com/_Paul_King_) or follow me on [Weibo](http://weibo.com/jinfali) iIf you find an issue.
 
 ## Contributing
 
