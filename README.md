@@ -7,7 +7,15 @@
 
 Enesco is an elegant and simple iOS music player based on DOUAudioStreamer.
 
-This project is made with love by [The EST Group](http://est-group.org/).
+> Made With :heart:  By [The EST Group](http://est-group.org/).
+
+## Other wonderful project by our team
+
+* [PHPHub-iOS](https://github.com/aufree/phphub-ios) by [@Aufree](https://github.com/aufree)
+* [PHPHub-Server](https://github.com/NauxLiu/phphub-server) by [@NauxLiu](https://github.com/NauxLiu)
+* [PHPHub-Android](https://github.com/CycloneAxe/phphub-android) by [@Kelvin](https://github.com/CycloneAxe) and [@Xiaoxiaoyu](https://github.com/xiaoxiaoyu)
+* [PHPHub-UI](https://github.com/phphub/phphub-ui) by [@Summer](https://github.com/phphub/phphub-ui) and [@Aufree](https://github.com/aufree)
+* [PHPHub-Web](https://github.com/summerblue/phphub) by [@Summer](https://github.com/phphub/phphub-ui)
 
 ## Requirements
 
