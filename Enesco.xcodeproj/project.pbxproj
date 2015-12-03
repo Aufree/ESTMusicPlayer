@@ -794,7 +794,7 @@
 				INFOPLIST_FILE = Enesco/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = github.aufree.Enesco;
+				PRODUCT_BUNDLE_IDENTIFIER = "org.est-group.Enesco";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -808,7 +808,7 @@
 				INFOPLIST_FILE = Enesco/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = github.aufree.Enesco;
+				PRODUCT_BUNDLE_IDENTIFIER = "org.est-group.Enesco";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -819,7 +819,7 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = EnescoTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = github.aufree.EnescoTests;
+				PRODUCT_BUNDLE_IDENTIFIER = "org.est-group.EnescoTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Enesco.app/Enesco";
 			};
@@ -831,7 +831,7 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = EnescoTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = github.aufree.EnescoTests;
+				PRODUCT_BUNDLE_IDENTIFIER = "org.est-group.EnescoTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Enesco.app/Enesco";
 			};
@@ -842,7 +842,7 @@
 			buildSettings = {
 				INFOPLIST_FILE = EnescoUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = github.aufree.EnescoUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = "org.est-group.EnescoTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_TARGET_NAME = Enesco;
 				USES_XCTRUNNER = YES;
@@ -854,7 +854,7 @@
 			buildSettings = {
 				INFOPLIST_FILE = EnescoUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = github.aufree.EnescoUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = "org.est-group.EnescoTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_TARGET_NAME = Enesco;
 				USES_XCTRUNNER = YES;

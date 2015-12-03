@@ -3,7 +3,7 @@
 //  Ting
 //
 //  Created by Aufree on 10/1/15.
-//  Copyright © 2015 Aufree. All rights reserved.
+//  Copyright © 2015 The EST Group. All rights reserved.
 //
 
 #import <Foundation/Foundation.h>

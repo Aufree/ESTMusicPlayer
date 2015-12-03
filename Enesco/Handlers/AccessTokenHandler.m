@@ -3,7 +3,7 @@
 //  Ting
 //
 //  Created by Aufree on 9/21/15.
-//  Copyright (c) 2015 Aufree. All rights reserved.
+//  Copyright (c) 2015 The EST Group. All rights reserved.
 //
 
 #import "AccessTokenHandler.h"
