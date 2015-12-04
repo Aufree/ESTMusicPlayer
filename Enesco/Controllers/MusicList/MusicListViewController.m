@@ -62,15 +62,19 @@
 # pragma mark - Load data from server
 
 - (void)headerRefreshing {
-    __weak typeof(self) weakself = self;
-    [[MusicModel Instance] getAllMusicsWithCallback:^(id data, NSError *error) {
-        if (!error) {
-            if (data) {
-                weakself.musicEntities = data;
-                [weakself.tableView reloadData];
-            }
-        }
-    }];
+    NSDictionary *musicsDict = [self dictionaryWithContentsOfJSONString:@"music_list.json"];
+    self.musicEntities = [MusicEntity arrayOfEntitiesFromArray:musicsDict[@"data"]].mutableCopy;
+    [self.tableView reloadData];
+}
+
+- (NSDictionary *)dictionaryWithContentsOfJSONString:(NSString *)fileLocation {
+    NSString *filePath = [[NSBundle mainBundle] pathForResource:[fileLocation stringByDeletingPathExtension] ofType:@"json"];
+    NSData *data = [NSData dataWithContentsOfFile:filePath];
+    __autoreleasing NSError* error = nil;
+    id result = [NSJSONSerialization JSONObjectWithData:data
+                                                options:kNilOptions error:&error];
+    if (error != nil) return nil;
+    return result;
 }
 
 # pragma mark - Tableview delegate
