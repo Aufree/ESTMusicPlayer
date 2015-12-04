@@ -9,7 +9,6 @@
 #import "MusicListViewController.h"
 #import "MusicViewController.h"
 #import "MusicListCell.h"
-#import "MusicModel.h"
 #import "MusicIndicator.h"
 #import "MBProgressHUD.h"
 

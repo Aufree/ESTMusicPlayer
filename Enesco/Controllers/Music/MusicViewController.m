@@ -9,7 +9,6 @@
 #import "MusicViewController.h"
 #import "MusicSlider.h"
 #import "MusicHandler.h"
-#import "MusicModel.h"
 
 #import "Track.h"
 #import "MusicIndicator.h"

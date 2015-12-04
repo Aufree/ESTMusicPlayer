@@ -26,14 +26,8 @@
 		5643E1C41C0C3985005D1A1C /* BaseEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = 5643E1BE1C0C3985005D1A1C /* BaseEntity.m */; };
 		5643E1C51C0C3985005D1A1C /* MusicEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = 5643E1C01C0C3985005D1A1C /* MusicEntity.m */; };
 		5643E1C61C0C3985005D1A1C /* MusicListEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = 5643E1C21C0C3985005D1A1C /* MusicListEntity.m */; };
-		5643E1CC1C0C39EF005D1A1C /* BaseApi.m in Sources */ = {isa = PBXBuildFile; fileRef = 5643E1C91C0C39EF005D1A1C /* BaseApi.m */; };
-		5643E1CD1C0C39EF005D1A1C /* MusicApi.m in Sources */ = {isa = PBXBuildFile; fileRef = 5643E1CB1C0C39EF005D1A1C /* MusicApi.m */; };
-		5643E1D01C0C39FB005D1A1C /* BaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 5643E1CF1C0C39FB005D1A1C /* BaseModel.m */; };
-		5643E1D81C0C3ABE005D1A1C /* AccessTokenHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 5643E1D51C0C3ABE005D1A1C /* AccessTokenHandler.m */; };
-		5643E1D91C0C3ABE005D1A1C /* APIRequestHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 5643E1D71C0C3ABE005D1A1C /* APIRequestHandler.m */; };
 		5643E1DD1C0C3E8B005D1A1C /* BaseHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 5643E1DC1C0C3E8B005D1A1C /* BaseHelper.m */; };
 		5643E1E01C0C3FF5005D1A1C /* MusicListCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5643E1DF1C0C3FF5005D1A1C /* MusicListCell.m */; };
-		5643E1E31C0C42BB005D1A1C /* MusicModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 5643E1E21C0C42BB005D1A1C /* MusicModel.m */; };
 		5643E1ED1C0D3907005D1A1C /* Track.m in Sources */ = {isa = PBXBuildFile; fileRef = 5643E1E71C0D3907005D1A1C /* Track.m */; };
 		5643E1EE1C0D3907005D1A1C /* NAKPlaybackIndicatorContentView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5643E1EA1C0D3907005D1A1C /* NAKPlaybackIndicatorContentView.m */; };
 		5643E1EF1C0D3907005D1A1C /* NAKPlaybackIndicatorView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5643E1EC1C0D3907005D1A1C /* NAKPlaybackIndicatorView.m */; };
@@ -97,23 +91,11 @@
 		5643E1C01C0C3985005D1A1C /* MusicEntity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = MusicEntity.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
 		5643E1C11C0C3985005D1A1C /* MusicListEntity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = MusicListEntity.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
 		5643E1C21C0C3985005D1A1C /* MusicListEntity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = MusicListEntity.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
-		5643E1C81C0C39EF005D1A1C /* BaseApi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = BaseApi.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
-		5643E1C91C0C39EF005D1A1C /* BaseApi.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseApi.m; sourceTree = "<group>"; };
-		5643E1CA1C0C39EF005D1A1C /* MusicApi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MusicApi.h; sourceTree = "<group>"; };
-		5643E1CB1C0C39EF005D1A1C /* MusicApi.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MusicApi.m; sourceTree = "<group>"; };
-		5643E1CE1C0C39FB005D1A1C /* BaseModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = BaseModel.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
-		5643E1CF1C0C39FB005D1A1C /* BaseModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = BaseModel.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
-		5643E1D41C0C3ABE005D1A1C /* AccessTokenHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = AccessTokenHandler.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
-		5643E1D51C0C3ABE005D1A1C /* AccessTokenHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = AccessTokenHandler.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
-		5643E1D61C0C3ABE005D1A1C /* APIRequestHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = APIRequestHandler.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
-		5643E1D71C0C3ABE005D1A1C /* APIRequestHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = APIRequestHandler.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
 		5643E1DA1C0C3BB7005D1A1C /* Enesco-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Enesco-Prefix.pch"; sourceTree = "<group>"; };
 		5643E1DB1C0C3E8B005D1A1C /* BaseHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = BaseHelper.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
 		5643E1DC1C0C3E8B005D1A1C /* BaseHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = BaseHelper.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
 		5643E1DE1C0C3FF5005D1A1C /* MusicListCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MusicListCell.h; sourceTree = "<group>"; };
 		5643E1DF1C0C3FF5005D1A1C /* MusicListCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MusicListCell.m; sourceTree = "<group>"; };
-		5643E1E11C0C42BB005D1A1C /* MusicModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = MusicModel.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
-		5643E1E21C0C42BB005D1A1C /* MusicModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = MusicModel.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
 		5643E1E61C0D3907005D1A1C /* Track.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Track.h; sourceTree = "<group>"; };
 		5643E1E71C0D3907005D1A1C /* Track.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Track.m; sourceTree = "<group>"; };
 		5643E1E91C0D3907005D1A1C /* NAKPlaybackIndicatorContentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NAKPlaybackIndicatorContentView.h; sourceTree = "<group>"; };
@@ -187,9 +169,7 @@
 			isa = PBXGroup;
 			children = (
 				5643E1E41C0D3907005D1A1C /* Thirdparty */,
-				5643E1C71C0C39EF005D1A1C /* Apis */,
 				5643E1BC1C0C3985005D1A1C /* Entities */,
-				5643E1C31C0C3985005D1A1C /* Models */,
 				5643E1BA1C0C373E005D1A1C /* Macros */,
 				5643E1991C0C3182005D1A1C /* Categories */,
 				5643E1951C0C3105005D1A1C /* Handlers */,
@@ -263,10 +243,6 @@
 			children = (
 				5643E1DB1C0C3E8B005D1A1C /* BaseHelper.h */,
 				5643E1DC1C0C3E8B005D1A1C /* BaseHelper.m */,
-				5643E1D41C0C3ABE005D1A1C /* AccessTokenHandler.h */,
-				5643E1D51C0C3ABE005D1A1C /* AccessTokenHandler.m */,
-				5643E1D61C0C3ABE005D1A1C /* APIRequestHandler.h */,
-				5643E1D71C0C3ABE005D1A1C /* APIRequestHandler.m */,
 				5643E1961C0C3105005D1A1C /* MusicHandler.h */,
 				5643E1971C0C3105005D1A1C /* MusicHandler.m */,
 			);
@@ -370,28 +346,6 @@
 				5643E1C21C0C3985005D1A1C /* MusicListEntity.m */,
 			);
 			path = Entities;
-			sourceTree = "<group>";
-		};
-		5643E1C31C0C3985005D1A1C /* Models */ = {
-			isa = PBXGroup;
-			children = (
-				5643E1E11C0C42BB005D1A1C /* MusicModel.h */,
-				5643E1E21C0C42BB005D1A1C /* MusicModel.m */,
-				5643E1CE1C0C39FB005D1A1C /* BaseModel.h */,
-				5643E1CF1C0C39FB005D1A1C /* BaseModel.m */,
-			);
-			path = Models;
-			sourceTree = "<group>";
-		};
-		5643E1C71C0C39EF005D1A1C /* Apis */ = {
-			isa = PBXGroup;
-			children = (
-				5643E1C81C0C39EF005D1A1C /* BaseApi.h */,
-				5643E1C91C0C39EF005D1A1C /* BaseApi.m */,
-				5643E1CA1C0C39EF005D1A1C /* MusicApi.h */,
-				5643E1CB1C0C39EF005D1A1C /* MusicApi.m */,
-			);
-			path = Apis;
 			sourceTree = "<group>";
 		};
 		5643E1E41C0D3907005D1A1C /* Thirdparty */ = {
@@ -620,22 +574,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				5643E1EE1C0D3907005D1A1C /* NAKPlaybackIndicatorContentView.m in Sources */,
-				5643E1D01C0C39FB005D1A1C /* BaseModel.m in Sources */,
-				5643E1E31C0C42BB005D1A1C /* MusicModel.m in Sources */,
 				5643E1DD1C0C3E8B005D1A1C /* BaseHelper.m in Sources */,
 				5643E1981C0C3105005D1A1C /* MusicHandler.m in Sources */,
 				5643E1AD1C0C35CC005D1A1C /* MusicIndicator.m in Sources */,
-				5643E1D81C0C3ABE005D1A1C /* AccessTokenHandler.m in Sources */,
 				5643E1EF1C0D3907005D1A1C /* NAKPlaybackIndicatorView.m in Sources */,
 				5643E19D1C0C3182005D1A1C /* GVUserDefaults+Properties.m in Sources */,
 				5643E1AE1C0C35CC005D1A1C /* MusicSlider.m in Sources */,
 				5643E1C41C0C3985005D1A1C /* BaseEntity.m in Sources */,
-				5643E1D91C0C3ABE005D1A1C /* APIRequestHandler.m in Sources */,
 				5643E1E01C0C3FF5005D1A1C /* MusicListCell.m in Sources */,
 				5643E1A51C0C3482005D1A1C /* NSString+Additions.m in Sources */,
 				5643E1A11C0C3458005D1A1C /* UIView+Animations.m in Sources */,
-				5643E1CD1C0C39EF005D1A1C /* MusicApi.m in Sources */,
-				5643E1CC1C0C39EF005D1A1C /* BaseApi.m in Sources */,
 				5643E1B91C0C3639005D1A1C /* MusicListViewController.m in Sources */,
 				5643E1C51C0C3985005D1A1C /* MusicEntity.m in Sources */,
 				5643E1B41C0C35F3005D1A1C /* MusicViewController.m in Sources */,

@@ -36,10 +36,15 @@
     if (NSClassFromString(@"MPNowPlayingInfoCenter")) {
         NSMutableDictionary *dict = [[NSMutableDictionary alloc] init];
         MusicEntity *music = [MusicViewController sharedInstance].currentPlayingMusic;
+        
+        AVURLAsset *audioAsset = [AVURLAsset URLAssetWithURL:[NSURL URLWithString:music.musicUrl] options:nil];
+        CMTime audioDuration = audioAsset.duration;
+        float audioDurationSeconds = CMTimeGetSeconds(audioDuration);
+        
         [dict setObject:music.name forKey:MPMediaItemPropertyTitle];
         [dict setObject:music.artistName forKey:MPMediaItemPropertyArtist];
         [dict setObject:[MusicViewController sharedInstance].musicTitle forKey:MPMediaItemPropertyAlbumTitle];
-        [dict setObject:@1 forKey:MPMediaItemPropertyPlaybackDuration];
+        [dict setObject:@(audioDurationSeconds) forKey:MPMediaItemPropertyPlaybackDuration];
         CGFloat playerAlbumWidth = (SCREEN_WIDTH - 16) * 2;
         UIImageView *playerAlbum = [[UIImageView alloc] initWithFrame:CGRectMake(0, 0, playerAlbumWidth, playerAlbumWidth)];
         NSURL *URL = [BaseHelper qiniuImageCenter:music.cover
