@@ -10,7 +10,6 @@
 
 @interface MusicEntity : BaseEntity
 @property (nonatomic, copy) NSNumber *musicId;
-@property (nonatomic, copy) NSNumber *sId;
 @property (nonatomic, copy) NSString *name;
 @property (nonatomic, copy) NSString *musicUrl;
 @property (nonatomic, copy) NSString *cover;

@@ -410,24 +410,18 @@ static void *kBufferingRatioKVOKey = &kBufferingRatioKVOKey;
     [MusicHandler configNowPlayingInfoCenter];
     
     Track *track = [[Track alloc] init];
-    [[MusicModel Instance] getMusicUrlWithSid:_musicEntity.sId callback:^(id data, NSError *error) {
-        if (!error) {
-            _musicEntity.musicUrl = data;
-            track.audioFileURL = [NSURL URLWithString:_musicEntity.musicUrl];
-            
-            @try {
-                [self removeStreamerObserver];
-            } @catch(id anException){
-            }
-            
-            _streamer = nil;
-            _streamer = [DOUAudioStreamer streamerWithAudioFile:track];
-            
-            [self addStreamerObserver];
-            [self.streamer play];
-        }
-    }];
-
+    track.audioFileURL = [NSURL URLWithString:_musicEntity.musicUrl];
+    
+    @try {
+        [self removeStreamerObserver];
+    } @catch(id anException){
+    }
+    
+    _streamer = nil;
+    _streamer = [DOUAudioStreamer streamerWithAudioFile:track];
+    
+    [self addStreamerObserver];
+    [self.streamer play];
 }
 
 - (void)removeStreamerObserver {

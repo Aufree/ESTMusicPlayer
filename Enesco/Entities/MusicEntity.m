@@ -13,10 +13,10 @@
 + (NSDictionary *)JSONKeyPathsByPropertyKey {
     return @{
              @"musicId" : @"id",
-             @"sId" : @"s_id",
              @"name" : @"title",
              @"cover" : @"pic",
              @"artistName" : @"artist",
+             @"musicUrl" : @"music_url"
              };
 }
 
