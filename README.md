@@ -59,6 +59,14 @@ Thank you for your interest in contributing to Enesco! Your ideas for improving 
 
 * [DOUAudioStreamer](https://github.com/douban/DOUAudioStreamer) - a Core Audio based streaming audio player for iOS/Mac.
 
+## License
+
+Copyright (c) 2015 Paul King
+
+---------------
+
+Released under the [MIT license](https://github.com/Aufree/Enesco/blob/master/LICENSE)
+
 # 中文文档
 
 Enesco 是一款基于 DOUAudioStreamer 开发的一款优雅简洁的音乐播放器.
@@ -113,10 +121,10 @@ CocoaPods 是一款 Cocoa 项目包管理工具, 如果你尚未安装 Cocoapods
 
 * [DOUAudioStreamer](https://github.com/douban/DOUAudioStreamer) - 由豆瓣开源的 iOS/Mac 流媒体播放引擎.
 
-## License
+## 许可证
 
 Copyright (c) 2015 Paul King
 
 ---------------
 
-Released under the [MIT license](https://github.com/Aufree/Enesco/blob/master/LICENSE)
+使用 [MIT 许可证](https://github.com/Aufree/Enesco/blob/master/LICENSE) 发行.
