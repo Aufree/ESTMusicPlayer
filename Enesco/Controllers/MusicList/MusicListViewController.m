@@ -23,8 +23,12 @@
     [super viewDidLoad];
     self.tableView.tableFooterView = [[UIView alloc] initWithFrame:CGRectZero];
     self.navigationItem.title = @"Music List";
-    [self createIndicatorView];
     [self headerRefreshing];
+}
+
+- (void)viewWillAppear:(BOOL)animated {
+    [super viewWillAppear:animated];
+    [self createIndicatorView];
 }
 
 # pragma mark - Custom right bar button item
