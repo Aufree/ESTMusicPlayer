@@ -9,7 +9,7 @@ ESTMusicPlayer is an elegant and simple iOS music player based on DOUAudioStream
 
 > Made With :heart:  By [The EST Group](http://est-group.org/).
 
-## [中文文档](https://github.com/Aufree/ESTMusicPlayer#中文文档)
+## [中文文档](https://github.com/Aufree/ESTMusicPlayer#中文文档-1)
 
 ## Other wonderful project by our team
 
