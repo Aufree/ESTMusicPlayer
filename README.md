@@ -1,15 +1,15 @@
-![](http://ww3.sinaimg.cn/large/76dc7f1bjw1eyk4g1x9vej21kw0pajtn.jpg)
+![](http://ww2.sinaimg.cn/large/76dc7f1bjw1eyzfg2l085j21jk0adacg.jpg)
 
 <p align="center">
 <a href="https://weibo.com/jinfali"><img src="https://img.shields.io/badge/contact-@Aufree-orange.svg?style=flat"></a>
-<a href="https://github.com/Aufree/Enesco/blob/master/LICENSE"><img src="https://img.shields.io/badge/license-MIT-green.svg?style=flat"></a>
+<a href="https://github.com/Aufree/ESTMusicPlayer/blob/master/LICENSE"><img src="https://img.shields.io/badge/license-MIT-green.svg?style=flat"></a>
 </p>
 
-Enesco is an elegant and simple iOS music player based on DOUAudioStreamer.
+ESTMusicPlayer is an elegant and simple iOS music player based on DOUAudioStreamer.
 
 > Made With :heart:  By [The EST Group](http://est-group.org/).
 
-## [中文文档](https://github.com/Aufree/Enesco#中文文档)
+## [中文文档](https://github.com/Aufree/ESTMusicPlayer#中文文档)
 
 ## Other wonderful project by our team
 
@@ -41,7 +41,7 @@ CocoaPods is a dependency manager for Cocoa projects, If you're not install the 
 
 Download the source code
 
-> $ git clone https://github.com/Aufree/Enesco
+> $ git clone https://github.com/Aufree/ESTMusicPlayer
 
 Now you'll need to build the dependencies
 
@@ -57,7 +57,7 @@ I'm [Aufree](https://github.com/aufree), A passionate engineer, leading member o
 
 ## Contributing
 
-Thank you for your interest in contributing to Enesco! Your ideas for improving this app are greatly appreciated. The best way to contribute is by submitting a pull request. I'll do my best to respond to you as soon as possible. You can also [submit a new GitHub issue](https://github.com/Aufree/Enesco/issues/new) if you find bugs or have questions.
+Thank you for your interest in contributing to ESTMusicPlayer! Your ideas for improving this app are greatly appreciated. The best way to contribute is by submitting a pull request. I'll do my best to respond to you as soon as possible. You can also [submit a new GitHub issue](https://github.com/Aufree/ESTMusicPlayer/issues/new) if you find bugs or have questions.
 
 ## Thanks for
 
@@ -69,11 +69,11 @@ Copyright (c) 2015 Paul King
 
 ---------------
 
-Released under the [MIT license](https://github.com/Aufree/Enesco/blob/master/LICENSE)
+Released under the [MIT license](https://github.com/Aufree/ESTMusicPlayer/blob/master/LICENSE)
 
 # 中文文档
 
-Enesco 是一款基于 DOUAudioStreamer 开发的一款优雅简洁的音乐播放器.
+ESTMusicPlayer 是一款基于 DOUAudioStreamer 开发的一款优雅简洁的音乐播放器.
 
 > 开源自 [The EST Group](http://est-group.org/) 团队.
 
@@ -107,7 +107,7 @@ CocoaPods 是一款 Cocoa 项目包管理工具, 如果你尚未安装 Cocoapods
 
 下载源代码
 
-> $ git clone https://github.com/Aufree/Enesco
+> $ git clone https://github.com/Aufree/ESTMusicPlayer
 
 安装依赖
 
@@ -123,7 +123,7 @@ CocoaPods 是一款 Cocoa 项目包管理工具, 如果你尚未安装 Cocoapods
 
 ## 参与贡献
 
-感谢您有兴趣参与 Enesco 的开发, 您可以在本地修改此项目, 经测试后无任何问题即可给我提交 Pull Request, 我会定期查看并 Merge, 若有其它问题, 可通过提交 [issue](https://github.com/Aufree/Enesco/issues/new) 来让我知道.
+感谢您有兴趣参与 ESTMusicPlayer 的开发, 您可以在本地修改此项目, 经测试后无任何问题即可给我提交 Pull Request, 我会定期查看并 Merge, 若有其它问题, 可通过提交 [issue](https://github.com/Aufree/ESTMusicPlayer/issues/new) 来让我知道.
 
 ## 由衷感谢
 
@@ -135,4 +135,4 @@ Copyright (c) 2015 Paul King
 
 ---------------
 
-使用 [MIT 许可证](https://github.com/Aufree/Enesco/blob/master/LICENSE) 发行.
+使用 [MIT 许可证](https://github.com/Aufree/ESTMusicPlayer/blob/master/LICENSE) 发行.
