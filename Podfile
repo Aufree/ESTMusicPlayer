@@ -1,6 +1,6 @@
 source 'https://github.com/CocoaPods/Specs.git'
 
-pod 'DOUAudioStreamer'
+pod 'DOUAudioStreamer', '0.2.11'
 pod 'SDWebImage'
 pod 'GVUserDefaults'
 pod 'MBProgressHUD'

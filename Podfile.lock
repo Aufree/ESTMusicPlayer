@@ -20,7 +20,7 @@ PODS:
   - AFNetworking/UIKit (2.6.3):
     - AFNetworking/NSURLConnection
     - AFNetworking/NSURLSession
-  - DOUAudioStreamer (0.2.12)
+  - DOUAudioStreamer (0.2.11)
   - GVUserDefaults (1.0.1)
   - Mantle (1.5.5):
     - Mantle/extobjc (= 1.5.5)
@@ -32,7 +32,7 @@ PODS:
 
 DEPENDENCIES:
   - AFNetworking (~> 2.0)
-  - DOUAudioStreamer
+  - DOUAudioStreamer (= 0.2.11)
   - GVUserDefaults
   - Mantle (= 1.5.5)
   - MBProgressHUD
@@ -40,7 +40,7 @@ DEPENDENCIES:
 
 SPEC CHECKSUMS:
   AFNetworking: cb8d14a848e831097108418f5d49217339d4eb60
-  DOUAudioStreamer: 14da432f20a8c1b755828ce5d61aee0a915a6b4f
+  DOUAudioStreamer: 8aefc3e80eb6c01ec89fa3c30743c660e8c55bae
   GVUserDefaults: acb40729f70984008d0650e49d7e422f1bbfa597
   Mantle: 1b29072a707453975b200a173cf77ec1e2810b75
   MBProgressHUD: c47f2c166c126cf2ce36498d80f33e754d4e93ad
