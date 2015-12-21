@@ -3,6 +3,7 @@
 <p align="center">
 <a href="https://weibo.com/jinfali"><img src="https://img.shields.io/badge/contact-@Aufree-orange.svg?style=flat"></a>
 <a href="https://github.com/Aufree/ESTMusicPlayer/blob/master/LICENSE"><img src="https://img.shields.io/badge/license-MIT-green.svg?style=flat"></a>
+<a href="https://github.com/Aufree"><img src="https://ga-beacon.appspot.com/UA-70965318-2/ESTMusicPlayer/readme" alt="GA"></a>
 </p>
 
 ESTMusicPlayer is an elegant and simple iOS music player based on DOUAudioStreamer.
