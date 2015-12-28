@@ -38,6 +38,7 @@ ESTMusicPlayer is an elegant and simple iOS music player based on DOUAudioStream
 CocoaPods is a dependency manager for Cocoa projects, If you're not install the Cocoapods on your machine, Run:
 
 > $ gem install cocoapods
+
 > $ pod setup
 
 Download the source code
@@ -104,6 +105,7 @@ ESTMusicPlayer 是基于 DOUAudioStreamer 开发的一款优雅简洁的音乐�
 CocoaPods 是一款 Cocoa 项目包管理工具, 如果你尚未安装 Cocoapods, 运行以下命令进行安装:
 
 > $ gem install cocoapods
+
 > $ pod setup
 
 下载源代码
