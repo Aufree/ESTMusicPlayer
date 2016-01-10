@@ -409,7 +409,12 @@ static void *kBufferingRatioKVOKey = &kBufferingRatioKVOKey;
     [MusicHandler configNowPlayingInfoCenter];
     
     Track *track = [[Track alloc] init];
-    track.audioFileURL = [NSURL URLWithString:_musicEntity.musicUrl];
+    
+    NSString *soundFilePath = [[NSBundle mainBundle] pathForResource:_musicEntity.fileName ofType: @"mp3"];
+    NSURL *fileURL = [[NSURL alloc] initFileURLWithPath:soundFilePath];
+    
+//    track.audioFileURL = [NSURL URLWithString:_musicEntity.musicUrl];
+    track.audioFileURL = fileURL;
     
     @try {
         [self removeStreamerObserver];

@@ -16,7 +16,8 @@
              @"name" : @"title",
              @"cover" : @"pic",
              @"artistName" : @"artist",
-             @"musicUrl" : @"music_url"
+             @"musicUrl" : @"music_url",
+             @"fileName" : @"file_name"
              };
 }
 
