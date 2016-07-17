@@ -77,6 +77,8 @@ Released under the [MIT license](https://github.com/Aufree/ESTMusicPlayer/blob/m
 
 ESTMusicPlayer 是基于 DOUAudioStreamer 开发的一款优雅简洁的音乐播放器.
 
+**我的微信：lijinfa894330982**
+
 > 开源自 [The EST Group](http://est-group.org/) 团队.
 
 ## 我们团队的其它开源项目
