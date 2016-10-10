@@ -13,7 +13,7 @@
 
 @implementation MusicHandler
 
-+ (void)cacheMusicCovorWithMusicEntities:(NSArray *)musicEntities currentIndex:(NSInteger)currentIndex {
++ (void)cacheMusicCoverWithMusicEntities:(NSArray *)musicEntities currentIndex:(NSInteger)currentIndex {
     NSInteger previoudsIndex = currentIndex-1;
     NSInteger nextIndex = currentIndex+1;
     previoudsIndex = previoudsIndex < 0 ? 0 : previoudsIndex;

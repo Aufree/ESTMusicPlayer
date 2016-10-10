@@ -9,6 +9,6 @@
 #import <Foundation/Foundation.h>
 
 @interface MusicHandler : NSObject
-+ (void)cacheMusicCovorWithMusicEntities:(NSArray *)musicEntities currentIndex:(NSInteger)currentIndex;
++ (void)cacheMusicCoverWithMusicEntities:(NSArray *)musicEntities currentIndex:(NSInteger)currentIndex;
 + (void)configNowPlayingInfoCenter;
 @end

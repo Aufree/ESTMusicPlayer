@@ -521,7 +521,7 @@ static void *kBufferingRatioKVOKey = &kBufferingRatioKVOKey;
 # pragma mark - Music convenient method
 
 - (void)loadPreviousAndNextMusicImage {
-    [MusicHandler cacheMusicCovorWithMusicEntities:_musicEntities currentIndex:_currentIndex];
+    [MusicHandler cacheMusicCoverWithMusicEntities:_musicEntities currentIndex:_currentIndex];
 }
 
 # pragma mark - HUD
