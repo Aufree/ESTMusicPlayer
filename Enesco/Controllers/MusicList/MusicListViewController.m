@@ -83,16 +83,13 @@
 # pragma mark - Tableview delegate
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
-    if (_delegate && [_delegate respondsToSelector:@selector(playMusicWithSpecialIndex:)]) {
-        [_delegate playMusicWithSpecialIndex:indexPath.row];
-    } else {
-        MusicViewController *musicVC = [MusicViewController sharedInstance];
-        musicVC.musicTitle = self.navigationItem.title;
-        musicVC.musicEntities = _musicEntities;
-        musicVC.specialIndex = indexPath.row;
-        musicVC.delegate = self;
-        [self presentToMusicViewWithMusicVC:musicVC];
-    }
+    MusicViewController *musicVC = [MusicViewController sharedInstance];
+    musicVC.musicTitle = self.navigationItem.title;
+    musicVC.musicEntities = _musicEntities;
+    musicVC.specialIndex = indexPath.row;
+    musicVC.delegate = self;
+    [self presentToMusicViewWithMusicVC:musicVC];
+
     [self updatePlaybackIndicatorWithIndexPath:indexPath];
     [tableView deselectRowAtIndexPath:indexPath animated:YES];
 }
