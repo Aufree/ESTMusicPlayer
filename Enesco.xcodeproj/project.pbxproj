@@ -467,11 +467,13 @@
 		5643E1431C0C2AEA005D1A1C /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0710;
+				LastUpgradeCheck = 0800;
 				ORGANIZATIONNAME = aufree;
 				TargetAttributes = {
 					5643E14A1C0C2AEA005D1A1C = {
 						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = W4M3J6TJMK;
+						ProvisioningStyle = Manual;
 						SystemCapabilities = {
 							com.apple.BackgroundModes = {
 								enabled = 1;
@@ -480,10 +482,12 @@
 					};
 					5643E1631C0C2AEA005D1A1C = {
 						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = T2ZCT295DT;
 						TestTargetID = 5643E14A1C0C2AEA005D1A1C;
 					};
 					5643E16E1C0C2AEA005D1A1C = {
 						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = T2ZCT295DT;
 						TestTargetID = 5643E14A1C0C2AEA005D1A1C;
 					};
 				};
@@ -671,13 +675,16 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = T2ZCT295DT;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -714,13 +721,16 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = T2ZCT295DT;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -743,12 +753,16 @@
 			baseConfigurationReference = BD84ABFB7556BE1739576F06 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = W4M3J6TJMK;
 				GCC_PREFIX_HEADER = "Enesco/Enesco-Prefix.pch";
 				INFOPLIST_FILE = Enesco/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.est-group.Enesco";
+				PRODUCT_BUNDLE_IDENTIFIER = com.estgroupe.estmusicplayer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "0793f455-210d-4167-9358-1da21365dcb6";
+				PROVISIONING_PROFILE_SPECIFIER = "ESTMusicPlayer Dev";
 			};
 			name = Debug;
 		};
@@ -757,11 +771,12 @@
 			baseConfigurationReference = 9B1097A24F85CAE0DADCD031 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
 				GCC_PREFIX_HEADER = "Enesco/Enesco-Prefix.pch";
 				INFOPLIST_FILE = Enesco/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.est-group.Enesco";
+				PRODUCT_BUNDLE_IDENTIFIER = com.estgroupe.estmusicplayer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
