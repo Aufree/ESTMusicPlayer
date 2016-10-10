@@ -23,7 +23,6 @@ static void *kDurationKVOKey = &kDurationKVOKey;
 static void *kBufferingRatioKVOKey = &kBufferingRatioKVOKey;
 
 @interface MusicViewController ()
-@property (nonatomic, strong) MusicEntity *musicEntity;
 @property (weak, nonatomic) IBOutlet NSLayoutConstraint *albumImageLeftConstraint;
 @property (weak, nonatomic) IBOutlet NSLayoutConstraint *albumImageRightConstraint;
 @property (weak, nonatomic) IBOutlet UIButton *musicMenuButton;
@@ -41,6 +40,7 @@ static void *kBufferingRatioKVOKey = &kBufferingRatioKVOKey;
 @property (weak, nonatomic) IBOutlet UIButton *nextMusicButton;
 @property (weak, nonatomic) IBOutlet UIButton *musicToggleButton;
 @property (weak, nonatomic) IBOutlet UIButton *musicCycleButton;
+@property (strong, nonatomic) MusicEntity *musicEntity;
 @property (strong, nonatomic) UIVisualEffectView *visualEffectView;
 @property (strong, nonatomic) MusicIndicator *musicIndicator;
 @property (strong, nonatomic) NSMutableArray *originArray;
