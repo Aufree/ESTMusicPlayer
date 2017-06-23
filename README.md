@@ -7,7 +7,7 @@
 </p>
 
 <p align="center">
-  <b>Special thanks to the generous sponsorship by:</b>
+  <b>Always inventing, Always delivering:</b>
   <br><br>
   <a href="https://www.yousails.com">
     <img src="https://yousails.com/banners/brand.png" width=350>
