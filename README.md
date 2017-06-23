@@ -7,8 +7,9 @@
 </p>
 
 <p align="center">
-  <b>Always inventing, Always delivering:</b>
   <br>
+  <b>Always inventing, Always delivering:</b>
+  <br><br>
   <a href="https://www.yousails.com">
     <img src="https://yousails.com/banners/brand.png" width=350>
   </a>
