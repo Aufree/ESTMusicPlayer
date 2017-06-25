@@ -1,5 +1,4 @@
 <p align="center">
-  <br>
   <b>创造不息，交付不止：</b>
   <br><br>
   <a href="https://www.yousails.com">
