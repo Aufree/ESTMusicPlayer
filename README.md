@@ -1,17 +1,18 @@
-<p align="center">
-  <b>创造不息，交付不止</b>
-  <br>
-  <a href="https://www.yousails.com">
-    <img src="https://yousails.com/banners/brand.png" width=350>
-  </a>
-</p>
-
 ![](http://ww2.sinaimg.cn/large/76dc7f1bjw1eyzfg2l085j21jk0adacg.jpg)
 
 <p align="center">
 <a href="https://weibo.com/jinfali"><img src="https://img.shields.io/badge/contact-@Aufree-orange.svg?style=flat"></a>
 <a href="https://github.com/Aufree/ESTMusicPlayer/blob/master/LICENSE"><img src="https://img.shields.io/badge/license-MIT-green.svg?style=flat"></a>
 <a href="https://github.com/Aufree"><img src="https://ga-beacon.appspot.com/UA-70965318-2/ESTMusicPlayer/readme" alt="GA"></a>
+</p>
+
+<p align="center">
+  <br>
+  <b>创造不息，交付不止</b>
+  <br><br>
+  <a href="https://www.yousails.com">
+    <img src="https://yousails.com/banners/brand.png" width=350>
+  </a>
 </p>
 
 ESTMusicPlayer is an elegant and simple iOS music player based on DOUAudioStreamer.
