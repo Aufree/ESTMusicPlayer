@@ -8,11 +8,10 @@
 
 <p align="center">
   <br>
-  <b>创造不息，交付不止</b>
+  若需要软件外包服务，可与我联系，添加好友请注明来意
   <br>
-  <a href="https://www.yousails.com">
-    <img src="https://yousails.com/banners/brand.png" width=350>
-  </a>
+  <br>  
+  <img src="https://user-images.githubusercontent.com/5310542/41954703-5178d4e8-7a0f-11e8-81b2-41c8f6aa0151.png" width="30%">
 </p>
 
 ESTMusicPlayer is an elegant and simple iOS music player based on DOUAudioStreamer.
@@ -81,8 +80,6 @@ Released under the [MIT license](https://github.com/Aufree/ESTMusicPlayer/blob/m
 # 中文文档
 
 ESTMusicPlayer 是基于 DOUAudioStreamer 开发的一款优雅简洁的音乐播放器.
-
-**我的微信：lijinfa894330982**
 
 > 开源自 [The EST Group](http://est-group.org/) 团队.
 
